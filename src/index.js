@@ -6,7 +6,7 @@ function promisify(func) {
       try {
         func(...args, function(err, ...data) {
           if (err) return reject(err)
-          resolve(data)
+          resolve(data.length > 1 ? data : data[0])
         })
       } catch (e) {
         reject(e)
