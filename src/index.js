@@ -2,7 +2,7 @@
  * Node中标准携带回调的方法（nodeStandardCallback）,比如require('fs').readFile
  * @param {Function} func
  */
-const deepClone = function promisify(func) {
+const promisify = function promisify(func) {
   return function() {
     let args = Array.prototype.slice.call(arguments)
     return new Promise((resolve, reject) => {
