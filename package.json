@@ -7,5 +7,14 @@
     "autopublish": "npm version patch && npm publish --access=public"
   },
   "author": "qingf",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "husky": "^1.0.0-rc.13"
+  },
+  "husky": {
+    "hooks": {
+      "post-update": "npm run autopublish"
+    }
+  }
 }
