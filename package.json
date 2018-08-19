@@ -4,18 +4,11 @@
   "description": "常用帮助类",
   "main": "src/index.js",
   "scripts": {
-    "autopublish": "npm version patch && npm publish --access=public"
+    "autopublish": "git push; npm version patch && npm publish --access=public"
   },
   "author": "qingf",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.4.0",
-    "husky": "^1.0.0-rc.13"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run autopublish",
-      "pre-push": "npm run autopublish"
-    }
+    "eslint": "^5.4.0"
   }
 }
