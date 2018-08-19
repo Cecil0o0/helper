@@ -1,6 +1,6 @@
 {
   "name": "@qingf/helper",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "常用帮助类",
   "main": "src/index.js",
   "scripts": {
