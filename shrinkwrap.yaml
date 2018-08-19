@@ -1,6 +1,92 @@
 devDependencies:
+  babel-eslint: 8.2.6
   eslint: 5.4.0
 packages:
+  /@babel/code-frame/7.0.0-beta.44:
+    dependencies:
+      '@babel/highlight': 7.0.0-beta.44
+    dev: true
+    resolution:
+      integrity: sha1-KgJkM2jegJFhYr5whlyXd08629k=
+      tarball: 'http://registry.npm.taobao.org/@babel/code-frame/download/@babel/code-frame-7.0.0-beta.44.tgz'
+  /@babel/generator/7.0.0-beta.44:
+    dependencies:
+      '@babel/types': 7.0.0-beta.44
+      jsesc: 2.5.1
+      lodash: 4.17.10
+      source-map: 0.5.7
+      trim-right: 1.0.1
+    dev: true
+    resolution:
+      integrity: sha1-x+Z7m1KEr89pswm1DX038+UDPUI=
+      tarball: 'http://registry.npm.taobao.org/@babel/generator/download/@babel/generator-7.0.0-beta.44.tgz'
+  /@babel/helper-function-name/7.0.0-beta.44:
+    dependencies:
+      '@babel/helper-get-function-arity': 7.0.0-beta.44
+      '@babel/template': 7.0.0-beta.44
+      '@babel/types': 7.0.0-beta.44
+    dev: true
+    resolution:
+      integrity: sha1-4YVSqq4iMRAKbkheA4VLw1MtRN0=
+      tarball: 'http://registry.npm.taobao.org/@babel/helper-function-name/download/@babel/helper-function-name-7.0.0-beta.44.tgz'
+  /@babel/helper-get-function-arity/7.0.0-beta.44:
+    dependencies:
+      '@babel/types': 7.0.0-beta.44
+    dev: true
+    resolution:
+      integrity: sha1-0Dym3SufewseazLFbHKDYUDbOhU=
+      tarball: 'http://registry.npm.taobao.org/@babel/helper-get-function-arity/download/@babel/helper-get-function-arity-7.0.0-beta.44.tgz'
+  /@babel/helper-split-export-declaration/7.0.0-beta.44:
+    dependencies:
+      '@babel/types': 7.0.0-beta.44
+    dev: true
+    resolution:
+      integrity: sha1-wLNRc14PvLOCLIrY205YOwXr2dw=
+      tarball: 'http://registry.npm.taobao.org/@babel/helper-split-export-declaration/download/@babel/helper-split-export-declaration-7.0.0-beta.44.tgz'
+  /@babel/highlight/7.0.0-beta.44:
+    dependencies:
+      chalk: 2.4.1
+      esutils: 2.0.2
+      js-tokens: 3.0.2
+    dev: true
+    resolution:
+      integrity: sha1-GMlM5UORaoBVPtzc9oGJCyAHR9U=
+      tarball: 'http://registry.npm.taobao.org/@babel/highlight/download/@babel/highlight-7.0.0-beta.44.tgz'
+  /@babel/template/7.0.0-beta.44:
+    dependencies:
+      '@babel/code-frame': 7.0.0-beta.44
+      '@babel/types': 7.0.0-beta.44
+      babylon: 7.0.0-beta.44
+      lodash: 4.17.10
+    dev: true
+    resolution:
+      integrity: sha1-+IMvT9zuXVm/UV5ZX8UQbFKbOU8=
+      tarball: 'http://registry.npm.taobao.org/@babel/template/download/@babel/template-7.0.0-beta.44.tgz'
+  /@babel/traverse/7.0.0-beta.44:
+    dependencies:
+      '@babel/code-frame': 7.0.0-beta.44
+      '@babel/generator': 7.0.0-beta.44
+      '@babel/helper-function-name': 7.0.0-beta.44
+      '@babel/helper-split-export-declaration': 7.0.0-beta.44
+      '@babel/types': 7.0.0-beta.44
+      babylon: 7.0.0-beta.44
+      debug: 3.1.0
+      globals: 11.7.0
+      invariant: 2.2.4
+      lodash: 4.17.10
+    dev: true
+    resolution:
+      integrity: sha1-qXCixFR3rRgBfi5GWgYG/u4NKWY=
+      tarball: 'http://registry.npm.taobao.org/@babel/traverse/download/@babel/traverse-7.0.0-beta.44.tgz'
+  /@babel/types/7.0.0-beta.44:
+    dependencies:
+      esutils: 2.0.2
+      lodash: 4.17.10
+      to-fast-properties: 2.0.0
+    dev: true
+    resolution:
+      integrity: sha1-axsWRZH3fewKA0KsqZXy0Eazp1c=
+      tarball: 'http://registry.npm.taobao.org/@babel/types/download/@babel/types-7.0.0-beta.44.tgz'
   /acorn-jsx/4.1.1:
     dependencies:
       acorn: 5.7.1
@@ -112,6 +198,28 @@ packages:
     resolution:
       integrity: sha1-Y/1D99weO7fONZR9uP42mj9Yx0s=
       tarball: 'http://registry.npm.taobao.org/babel-code-frame/download/babel-code-frame-6.26.0.tgz'
+  /babel-eslint/8.2.6:
+    dependencies:
+      '@babel/code-frame': 7.0.0-beta.44
+      '@babel/traverse': 7.0.0-beta.44
+      '@babel/types': 7.0.0-beta.44
+      babylon: 7.0.0-beta.44
+      eslint-scope: 3.7.1
+      eslint-visitor-keys: 1.0.0
+    dev: true
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-YnDQxzIFYoBnwPeuFpOp55es79k=
+      tarball: 'http://registry.npm.taobao.org/babel-eslint/download/babel-eslint-8.2.6.tgz'
+  /babylon/7.0.0-beta.44:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha1-iRWeFebjDFCW4i1zjYwK+KDoyh0=
+      tarball: 'http://registry.npm.taobao.org/babylon/download/babylon-7.0.0-beta.44.tgz'
   /balanced-match/1.0.0:
     dev: true
     resolution:
@@ -262,6 +370,16 @@ packages:
     resolution:
       integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
       tarball: 'http://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz'
+  /eslint-scope/3.7.1:
+    dependencies:
+      esrecurse: 4.2.1
+      estraverse: 4.2.0
+    dev: true
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha1-PWPD7f2gLgbgGkUq2IyqzHzctug=
+      tarball: 'http://registry.npm.taobao.org/eslint-scope/download/eslint-scope-3.7.1.tgz'
   /eslint-scope/4.0.0:
     dependencies:
       esrecurse: 4.2.1
@@ -563,6 +681,13 @@ packages:
     resolution:
       integrity: sha1-2zUMK3Paynf/EkOWLp8i8JloVyY=
       tarball: 'http://registry.npm.taobao.org/inquirer/download/inquirer-5.2.0.tgz'
+  /invariant/2.2.4:
+    dependencies:
+      loose-envify: 1.4.0
+    dev: true
+    resolution:
+      integrity: sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
+      tarball: 'http://registry.npm.taobao.org/invariant/download/invariant-2.2.4.tgz'
   /is-fullwidth-code-point/2.0.0:
     dev: true
     engines:
@@ -615,6 +740,11 @@ packages:
     resolution:
       integrity: sha1-mGbfOVECEw449/mWvOtlRDIJwls=
       tarball: 'http://registry.npm.taobao.org/js-tokens/download/js-tokens-3.0.2.tgz'
+  /js-tokens/4.0.0:
+    dev: true
+    resolution:
+      integrity: sha1-GSA/tZmR35jjoocFDUZHzerzJJk=
+      tarball: 'http://registry.npm.taobao.org/js-tokens/download/js-tokens-4.0.0.tgz'
   /js-yaml/3.12.0:
     dependencies:
       argparse: 1.0.10
@@ -624,6 +754,14 @@ packages:
     resolution:
       integrity: sha1-6u1lbsg0TxD1J8a/obbiJE3hZ9E=
       tarball: 'http://registry.npm.taobao.org/js-yaml/download/js-yaml-3.12.0.tgz'
+  /jsesc/2.5.1:
+    dev: true
+    engines:
+      node: '>=4'
+    hasBin: true
+    resolution:
+      integrity: sha1-5CGiqOINawgZ3yiQj3glJrlt0f4=
+      tarball: 'http://registry.npm.taobao.org/jsesc/download/jsesc-2.5.1.tgz'
   /json-schema-traverse/0.4.1:
     dev: true
     resolution:
@@ -649,6 +787,14 @@ packages:
     resolution:
       integrity: sha1-G3eTz3JZ6jj7NmHU04syYK+K5Oc=
       tarball: 'http://registry.npm.taobao.org/lodash/download/lodash-4.17.10.tgz'
+  /loose-envify/1.4.0:
+    dependencies:
+      js-tokens: 4.0.0
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
+      tarball: 'http://registry.npm.taobao.org/loose-envify/download/loose-envify-1.4.0.tgz'
   /mimic-fn/1.2.0:
     dev: true
     engines:
@@ -911,6 +1057,13 @@ packages:
     resolution:
       integrity: sha1-BE8aSdiEL/MHqta1Be0Xi9lQE00=
       tarball: 'http://registry.npm.taobao.org/slice-ansi/download/slice-ansi-1.0.0.tgz'
+  /source-map/0.5.7:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
+      tarball: 'http://registry.npm.taobao.org/source-map/download/source-map-0.5.7.tgz'
   /sprintf-js/1.0.3:
     dev: true
     resolution:
@@ -1007,6 +1160,20 @@ packages:
     resolution:
       integrity: sha1-bTQzWIl2jSGyvNoKonfO07G/rfk=
       tarball: 'http://registry.npm.taobao.org/tmp/download/tmp-0.0.33.tgz'
+  /to-fast-properties/2.0.0:
+    dev: true
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
+      tarball: 'http://registry.npm.taobao.org/to-fast-properties/download/to-fast-properties-2.0.0.tgz'
+  /trim-right/1.0.1:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
+      tarball: 'http://registry.npm.taobao.org/trim-right/download/trim-right-1.0.1.tgz'
   /type-check/0.3.2:
     dependencies:
       prelude-ls: 1.1.2
@@ -1054,4 +1221,5 @@ registry: 'https://registry.npm.taobao.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
+  babel-eslint: ^8.2.6
   eslint: ^5.4.0

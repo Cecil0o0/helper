@@ -9,6 +9,7 @@
   "author": "qingf",
   "license": "MIT",
   "devDependencies": {
+    "babel-eslint": "^8.2.6",
     "eslint": "^5.4.0"
   }
 }
