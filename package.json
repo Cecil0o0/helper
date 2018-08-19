@@ -14,7 +14,7 @@
   },
   "husky": {
     "hooks": {
-      "post-update": "npm run autopublish"
+      "post-applypatch": "npm run autopublish"
     }
   }
 }
