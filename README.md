@@ -6,4 +6,5 @@
 - parsePath
 - getValueByPath
 - getNumber
+- walkDom
 - RegExps

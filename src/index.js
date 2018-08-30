@@ -128,5 +128,6 @@ module.exports = {
   parsePath,
   getValueByPath,
   getNumber,
+  ...require('./dom'),
   RegExps: require('./regex')
 }
