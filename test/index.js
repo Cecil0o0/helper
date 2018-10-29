@@ -1,5 +1,5 @@
 const { promisify } = require(__dirname + '/../src')
 
-promisify(function(a, cb) {
-  cb(null, a)
-})(2).then(data => console.log(data))
+const readFile = promisify(require('fs').readFile)
+
+readFile(__dirname + '/myfile.js', 'utf8').then(contents => console.log(contents))
