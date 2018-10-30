@@ -4,7 +4,7 @@
   "description": "常用帮助类",
   "main": "src/index.js",
   "scripts": {
-    "autopublish": "git push; npm version patch && npm publish --access=public"
+    "publish": "node scripts/autopublish"
   },
   "author": "qingf",
   "license": "MIT",
