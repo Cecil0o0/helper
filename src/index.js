@@ -122,16 +122,14 @@ const parsePath = function parsePath(path) {
 }
 
 // 如果参数为空，则返回所有入参的乘积
-function curryMulti() {
+const curryMulti = function curryMulti() {
   let nums = Array.from(arguments)
   if (nums.length === 0) return null
   let result = 1
   return (function inner() {
     let others = Array.from(arguments)
     if (others.length === 0) {
-      return nums.reduce((acc, item) => {
-        return acc * item
-      }, result)
+      return nums.reduce((acc, item) => acc * item, result)
     } else {
       nums = nums.concat(others)
       return inner
