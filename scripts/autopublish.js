@@ -1,8 +1,7 @@
-const { spawn } = require('child_process')
+const { spawnSync } = require('child_process')
 const process = require('process')
-console.log(process.env.COMMIT_MSG)
 
-spawn(
+spawnSync(
   `git add ./; git commit -m "${process.env.COMMIT_MSG ||
     'default msg'}";git push; npm version patch && npm publish --access=public;`,
   [],
