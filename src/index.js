@@ -147,5 +147,6 @@ module.exports = {
   curryMulti,
   ...require('./dom'),
   ...require('./blob'),
+  HTMLEntity: require('./html-entity'),
   RegExps: require('./regex')
 }
