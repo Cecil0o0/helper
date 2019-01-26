@@ -1,18 +1,16 @@
 # 帮助类
 
-- promisify
-- deepClone
-- objectDeepSet
-- parsePath
-- getValueByPath
-- getNumber
-- walkDom
+- DOM
+- Blob
+- Common
+- Anyify
 - RegExps
 - HTMLEntity
+- PartialFunction
 
-### HTMLEntity方法Demo
+### HTMLEntity 方法 Demo
 
 ```js
-HTMLEntity.encode('你好')
-HTMLEntity.decode('&#x4f60;&#x597d;')
+HTMLEntity.encode('你好');
+HTMLEntity.decode('&#x4f60;&#x597d;');
 ```
